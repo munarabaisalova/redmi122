@@ -1,0 +1,119 @@
+body {
+    margin: 0;padding: 0;
+ width: auto;  
+ background-image: url(./image/pngtree-musical.jpg);
+}
+
+.header {
+    height: 70px;
+    background:fixed rgb(43, 119, 226);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-img {
+    width: 40px;
+    height: 40px;
+}
+a {
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+.about-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.blocks {
+    display: flex;
+}
+@media (max-width:720px){
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.about-block {
+   flex-wrap: wrap;     
+}
+
+
+}
+@media (max-width:500px){
+    .blocks {
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .about-block {
+       flex-wrap: wrap;     
+    }
+    .header{
+    flex-wrap: wrap;
+    font-size: 10px;
+    }
+    .img12 {
+        width: 200px;
+        height: 200px;
+       
+    }
+    }
+    @media (max-width:470px){
+        .blocks {
+            display: flex;
+            flex-wrap: wrap;
+           
+        }
+        .about-block {
+           flex-wrap: wrap;     
+        }
+        .header{
+        flex-wrap: wrap;
+        font-size: 10px;
+        }
+        .img12 {
+            width: 200px;
+            height: 200px;
+           
+        }
+        }
+        @media (max-width:360px){
+            .blocks {
+                display: flex;
+                flex-wrap: wrap;
+               
+            }
+            .about-block {
+               flex-wrap: wrap;     
+            }
+            .header{
+            flex-wrap: wrap;
+            font-size: 10px;
+            }
+            .img12 {
+                width: 200px;
+                height: 200px;
+               
+            }
+            }
+        @media (max-width:320px){
+            .blocks {
+                display: flex;
+                flex-wrap: wrap;
+               
+            }
+            .about-block {
+               flex-wrap: wrap;     
+            }
+            .header{
+            flex-wrap: wrap;
+            font-size: 10px;
+            }
+            .img12 {
+                width: 200px;
+                height: 200px;
+               
+            }
+            }
